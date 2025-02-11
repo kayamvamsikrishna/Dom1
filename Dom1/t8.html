@@ -94,8 +94,8 @@
         });
 
 
-        document.addEventListener("keyup",function(poojitha){
-            //console.log(poojitha);//keyupEvent Object is displayed
+        document.addEventListener("keyup",function(poojitha){  
+            //console.log(poojitha);//keyupEvent Object is displayed and in that keyUp event object there is a property (Escape) when the event is triggered
             if (poojitha.key=="Escape" && !h.classList.contains("hide")){
                 hidden();
             }
