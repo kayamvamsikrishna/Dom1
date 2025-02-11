@@ -94,6 +94,7 @@
         });
 
 //tap ESC in the keyboard and esc is nothing but Escape and escape is noting but closing the current work or page or task or event
+        //keyup takes any key in the keyboard but here i need only esape[ESC] key,... So that i provided a if condition in the addEventListner
         document.addEventListener("keyup",function(poojitha){  
             //console.log(poojitha);//keyupEvent Object is displayed and in that keyUp event object there is a property (Escape) when the event is triggered and the perpose of poojitha(object) parameter in the function is,... to accepting the keyup event property (escape),.....
             if (poojitha.key=="Escape" && !h.classList.contains("hide")){
